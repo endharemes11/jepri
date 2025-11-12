@@ -16,7 +16,7 @@ else:
     # Load the trained YOLOv8 model
     model = YOLO(model_path)
 
-    st.title("Deteksi Objek dengan YOLOv8")
+    st.title("Deteksi Objek Mineral Sedimen Klastik dengan YOLOv8")
 
     uploaded_file = st.file_uploader("Unggah gambar...", type=["jpg", "jpeg", "png"])
 
